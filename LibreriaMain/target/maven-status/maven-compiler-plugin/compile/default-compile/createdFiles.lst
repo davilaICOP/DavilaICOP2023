@@ -1,0 +1,17 @@
+entidad\Autor_.class
+persistencia\LibroJpaController.class
+servicios\ControladoraEditorial.class
+entidad\Editorial.class
+com\mycompany\libreriamain\LibreriaMain.class
+servicios\ControladoraAutor.class
+entidad\Autor.class
+servicios\ControladoraLibro.class
+persistencia\EditorialJpaController.class
+entidad\Libro.class
+entidad\Editorial_.class
+persistencia\exceptions\NonexistentEntityException.class
+persistencia\exceptions\PreexistingEntityException.class
+persistencia\ControladoraPersistencia.class
+persistencia\exceptions\IllegalOrphanException.class
+entidad\Libro_.class
+persistencia\AutorJpaController.class

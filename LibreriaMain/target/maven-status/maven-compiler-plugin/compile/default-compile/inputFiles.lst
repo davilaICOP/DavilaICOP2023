@@ -1,0 +1,14 @@
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\entidad\Autor.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\persistencia\exceptions\NonexistentEntityException.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\persistencia\exceptions\PreexistingEntityException.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\servicios\ControladoraAutor.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\persistencia\AutorJpaController.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\persistencia\LibroJpaController.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\servicios\ControladoraEditorial.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\servicios\ControladoraLibro.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\entidad\Libro.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\entidad\Editorial.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\persistencia\EditorialJpaController.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\persistencia\exceptions\IllegalOrphanException.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\com\mycompany\libreriamain\LibreriaMain.java
+C:\Users\Commodore\Documents\NetBeansProjects\LibreriaMain\src\main\java\persistencia\ControladoraPersistencia.java

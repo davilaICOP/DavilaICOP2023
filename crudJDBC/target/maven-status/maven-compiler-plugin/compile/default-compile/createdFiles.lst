@@ -1,0 +1,7 @@
+logica\Genero.class
+logica\ControladoraLogica.class
+com\mycompany\crudjdbc\CrudJDBC.class
+logica\Domicilio.class
+logica\Persona.class
+persistencia\ControladoraPersistencia.class
+logica\Localidad.class

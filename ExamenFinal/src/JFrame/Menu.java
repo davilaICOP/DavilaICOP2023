@@ -216,8 +216,32 @@ public class Menu {
         escrutinioProvisorioItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Implementar la lógica para mostrar el escrutinio provisorio
-                mostrarEscrutinioProvisorio();
+                // Obtener la lista de candidatos ordenada
+                List<Candidato> listaCandidatos = sistema.generarListaCandidatosOrdenada();
+
+                // Crear una cadena para almacenar la información formateada
+                StringBuilder informacionEscrutinioProvisorio = new StringBuilder("Escrutinio Provisorio:\n");
+
+                // Formatear la información de cada candidato
+                for (Candidato candidato : listaCandidatos) {
+                    informacionEscrutinioProvisorio.append("Candidato: ")
+                            .append(candidato.getNombre())
+                            .append(" ")
+                            .append(candidato.getApellido())
+                            .append(" - Votos recibidos: ")
+                            .append(candidato.getCantidadVotos())
+                            .append("\n");
+                }
+
+                // Agregar información de votos en blanco y votos impugnados
+                informacionEscrutinioProvisorio.append("Votos en Blanco: ")
+                        .append(sistema.votosEnBlanco)
+                        .append("\n")
+                        .append("Votos Impugnados: ")
+                        .append(sistema.votosImpugnados);
+
+                // Mostrar la información
+                mostrarInformacion("Escrutinio Provisorio", informacionEscrutinioProvisorio.toString());
             }
         });
 
@@ -346,5 +370,3 @@ public class Menu {
     }
 
 }
-
-

@@ -248,8 +248,19 @@ public class Menu {
         escrutinioDefinitivoItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Implementar la lógica para mostrar el escrutinio definitivo y terna de ganadores
-                validarEscrutinio();  // Ajusta según tu implementación
+                try {
+                    // Validar el escrutinio
+                    sistema.validarEscrutinio();
+
+                    // Mostrar mensaje de escrutinio validado correctamente
+                    JOptionPane.showMessageDialog(frame, "Escrutinio validado correctamente.", "Escrutinio Validado", JOptionPane.INFORMATION_MESSAGE);
+
+                    // Calcular la terna de ganadores y mostrar el escrutinio definitivo
+                    sistema.emitirEscrutinioDefinitivoYTernaGanadores();
+                } catch (RuntimeException ex) {
+                    // Manejar la excepción si hay un error en la validación del escrutinio
+                    JOptionPane.showMessageDialog(frame, "Error en el escrutinio: " + ex.getMessage(), "Error de Escrutinio", JOptionPane.ERROR_MESSAGE);
+                }
             }
         });
                 

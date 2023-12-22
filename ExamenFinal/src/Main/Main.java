@@ -182,6 +182,46 @@ public class Main {
             }
 
         } while (opcion != 0);
-    }
-    
+    }    
 }
+
+/* Crear una instancia de CiudadanoDAO
+CiudadanoDAO ciudadanoDAO = new CiudadanoDAO();
+
+// Crear un nuevo ciudadano con los datos proporcionados
+Ciudadano nuevoCiudadano = new Ciudadano("Avila", "Denis", 24, Genero.Masculino, "Comas 2917", "42127830");
+Ciudadano nuevoCiudadano2 = new Ciudadano("Avila", "Maxi", 17, Genero.Masculino, "Comas 2917", "47000000");
+Ciudadano nuevoCiudadano3 = new Ciudadano("Avila", "Glenda", 22, Genero.Femenino, "Comas 2917", "43000000");
+Ciudadano nuevoCiudadano4 = new Ciudadano("Avila", "Fernando", 60, Genero.Masculino, "Comas 2917", "16000000");
+Ciudadano nuevoCiudadano5 = new Ciudadano("Millaa", "Fabiana", 58, Genero.Femenino, "Comas 2917", "18000000");
+
+// Insertar el ciudadano en la base de datos
+ciudadanoDAO.agregarCiudadano(nuevoCiudadano);
+ciudadanoDAO.agregarCiudadano(nuevoCiudadano2);
+ciudadanoDAO.agregarCiudadano(nuevoCiudadano3);
+ciudadanoDAO.agregarCiudadano(nuevoCiudadano4);
+ciudadanoDAO.agregarCiudadano(nuevoCiudadano5);
+
+System.out.println("Ciudadano insertado en la base de datos.");*/
+
+/*// Crear un nuevo sufragante con los datos proporcionados
+Sufragante nuevoSufragante1 = new Sufragante("Avila", "Denis", 24, Genero.Masculino, "Comas 2917", "42127830");
+Sufragante nuevoSufragante2 = new Sufragante("Millaa", "Fabiana", 57, Genero.Femenino, "Comas 2917", "18000000");
+
+// Crear un nuevo candidato con los datos proporcionados
+Candidato nuevoCandidato1 = new Candidato("Avila", "Maxi", 17, Genero.Masculino, "Comas 2917", "47000000", PartidoPolitico.LLA, "Libertad");
+Candidato nuevoCandidato2 = new Candidato("Avila", "Fernando", 60, Genero.Masculino, "Comas 2917", "16000000", PartidoPolitico.LLA, "Viva");
+Candidato nuevoCandidato3 = new Candidato("Avila", "Glenda", 60, Genero.Femenino, "Comas 2917", "43000000", PartidoPolitico.JXC, "El cambio");
+
+// Insertar el sufragante en la base de datos
+ciudadanoDAO.agregarCiudadano(nuevoSufragante1);
+ciudadanoDAO.agregarCiudadano(nuevoSufragante2);
+
+System.out.println("Sufragante insertado en la base de datos.");
+
+// Insertar el candidato en la base de datos
+ciudadanoDAO.agregarCiudadano(nuevoCandidato1);
+ciudadanoDAO.agregarCiudadano(nuevoCandidato2);
+ciudadanoDAO.agregarCiudadano(nuevoCandidato3);
+
+System.out.println("Candidato insertado en la base de datos.");*/
